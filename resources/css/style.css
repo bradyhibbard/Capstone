@@ -251,3 +251,100 @@ a:hover {
     letter-spacing: 0.2em;
   }
 }
+
+/*Section 2 Emanuel, Sr Strategist*/
+#details {
+  top: 4rem;
+  position: relative;
+  background-color: white;
+  padding: 2rem 0 0 1.5rem;
+  display: flex;
+  width: 100%;
+}
+
+.emanuel {
+  width: 60%;
+}
+
+.story2 img {
+  width: 100%;
+}
+
+.description {
+  margin-top: 2rem;
+}
+
+.description h1{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description p {
+  font-size: 1.20rem;
+  line-height: 1.5;
+}
+.side-stories {
+  width: 32.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+}
+
+.small-art {
+  display: flex;
+}
+
+.pic {
+  width: 35%;
+  margin-left: 1rem;
+}
+
+.pic img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.pic-mobile {
+  display: none;
+}
+
+.small-art-mobile {
+  display: none;
+}
+
+.description-side {
+  margin: auto 0;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.description-side h1 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.description-side p {
+  font-size: 1.15rem;
+  margin-bottom: .5rem;
+}
+
+.description-side a {
+  color: blue;
+}
+
+#desc-mobile {
+  display: none;
+}
+
+.highlighted {
+  background-color: #990000;
+  padding: 0;
+  color: white;
+  width: 100%;
+}
+
+#professor {
+  width: 35%;
+  margin-top: 1rem;
+}
