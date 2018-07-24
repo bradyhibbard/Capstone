@@ -190,3 +190,64 @@ a:hover {
 .button:hover {
   background-color: #76060f;
 }
+
+
+/*Reduce the font size of h1 and h5 tags*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .titles h1 {
+    font-size: 2rem;
+    transition: font-size 3s ease-out;
+  }
+
+  .titles h5 {
+    font-size: 1.35rem;
+    transition: font-size 3s ease-out;
+  }
+
+}
+
+/*Reduce again the font size of h1 and h5 tags.  */
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .titles h1 {
+    font-size: 1.5rem;
+    transition: font-size 3s ease-out;
+  }
+
+  .titles h5 {
+    font-size: 1rem;
+    transition: font-size 3s ease-out;
+  }
+
+}
+
+/*Display the banner as block i.e: headers will appear below the banner photo. This is the mobile view*/
+@media only screen and (max-width: 700px) {
+
+  #banner {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .story1 {
+    width: 100%;
+  }
+
+  .button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 40%;
+  }
+  .titles {
+    padding: 2rem auto 2rem 1rem;
+  }
+
+  .titles h1 {
+    font-size: 2.6rem;
+  }
+
+  .titles h5 {
+    font-size: 1.25rem;
+    letter-spacing: 0.2em;
+  }
+}
