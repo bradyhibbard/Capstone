@@ -348,3 +348,169 @@ a:hover {
   width: 35%;
   margin-top: 1rem;
 }
+
+/*Reduce the size of headers and reduce emanuel and side-stories divs*/
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+
+  .description h1 {
+    font-size: 1.25rem;
+    transition: font-size 3s ease-out;
+    margin-bottom: 1rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+    transition: font-size 3s ease-out;
+  }
+
+  .side-stories {
+    width: 30%;
+  }
+
+  .description-side h1{
+    font-size: 1.2rem;
+  }
+
+  .description-side p {
+    font-size: .6rem;
+  }
+
+  .emanuel {
+    width: 45%;
+  }
+
+  .side-stories {
+    width: 34rem;
+    padding-bottom: 7rem;
+  }
+}
+
+/*Hide the emanuel div and change the background color of all the small articles*/
+@media only screen and (min-width: 450px) and (max-width: 700px) {
+  .emanuel {
+    display: none;
+  }
+
+  .side-stories {
+    margin: 0 0 2rem 0;
+    width: 50rem;
+  }
+
+  .small-art {
+    background-color: #990000;
+    padding-top: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+}
+/*Hide emanuel div and show the mobile version of images at the sidebar*/
+@media only screen and (max-width: 450px) {
+
+  .emanuel {
+    display: none;
+  }
+
+  .side-stories {
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 0;
+  }
+  .small-art {
+    display: block;
+  }
+
+  .small-art-mobile {
+    display: block;
+  }
+
+  #desc-mobile {
+    display: block;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .pic-mobile {
+    display: block;
+    width: 95%;
+  }
+
+  .pic-mobile img {
+    width: 100%;
+  }
+
+  .description-side {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .small-art.highlighted {
+    display: none;
+  }
+}
+
+/*Hide the emanuel div and change the background color of all the small articles*/
+@media only screen and (min-width: 450px) and (max-width: 700px) {
+  .emanuel {
+    display: none;
+  }
+
+  .side-stories {
+    margin: 0 0 2rem 0;
+    width: 50rem;
+  }
+
+  .small-art {
+    background-color: #990000;
+    padding-top: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+}
+/*Hide emanuel div and show the mobile version of images at the sidebar*/
+@media only screen and (max-width: 450px) {
+
+  .emanuel {
+    display: none;
+  }
+
+  .side-stories {
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 0;
+  }
+  .small-art {
+    display: block;
+  }
+
+  .small-art-mobile {
+    display: block;
+  }
+
+  #desc-mobile {
+    display: block;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .pic-mobile {
+    display: block;
+    width: 95%;
+  }
+
+  .pic-mobile img {
+    width: 100%;
+  }
+
+  .description-side {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .small-art.highlighted {
+    display: none;
+  }
+}
